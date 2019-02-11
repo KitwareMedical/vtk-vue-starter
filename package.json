@@ -1,0 +1,23 @@
+{
+  "name": "vtk-vue-starter",
+  "version": "0.0.1",
+  "description": "Starter template for vtk.js + vue.js",
+  "scripts": {
+    "build": "webpack --progress --colors --mode=development",
+    "build:release": "webpack --progress --colors --mode=production",
+    "start": "webpack-dev-server --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "vtk.js": "^8.3.9",
+    "vue": "^2.6.5"
+  },
+  "devDependencies": {
+    "kw-web-suite": "^8.0.0",
+    "vue-loader": "^15.6.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.5"
+  }
+}
